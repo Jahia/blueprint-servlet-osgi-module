@@ -1,7 +1,7 @@
 servlet-osgi-module
 ===================
 
-A sample Jahia module that register a servlet using OSGi Blueprint
+A sample Jahia module that registers a servlet using OSGi Blueprint
 
 Requirements
 ------------
