@@ -44,7 +44,7 @@
 
 
 -->
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <artifactId>jahia-modules</artifactId>
@@ -57,13 +57,11 @@
     <packaging>bundle</packaging>
     <description>An example of how to register a servlet inside an OSGi bundle</description>
 
-<!--
     <scm>
-        <connection>scm:git:git@github.com:Jahia/cmis-provider.git</connection>
-        <url>scm:git:git@github.com:Jahia/cmis-provider.git</url>
-        <developerConnection>scm:git:git@github.com:Jahia/cmis-provider.git</developerConnection>
+        <connection>scm:git:git@github.com:Jahia/servlet-osgi-module.git</connection>
+        <url>scm:git:git@github.com:Jahia/servlet-osgi-module.git</url>
+        <developerConnection>scm:git:git@github.com:Jahia/servlet-osgi-module.git</developerConnection>
     </scm>
--->
 
     <repositories>
         <repository>
