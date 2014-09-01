@@ -1,4 +1,4 @@
-package org.jahia.modules.samples.servlet;
+package org.jahia.modules.samples.servlet.blueprint;
 
 import org.osgi.service.http.HttpService;
 import org.osgi.service.http.NamespaceException;
@@ -25,7 +25,7 @@ public class SimpleServlet extends HttpServlet {
 
     public void postConstruct() {
         try {
-            httpService.registerServlet("/org.jahia.modules.samples.servlet", this, null, null);
+            httpService.registerServlet("/org.jahia.modules.samples.servlet.blueprint", this, null, null);
         } catch (ServletException e) {
             e.printStackTrace();
         } catch (NamespaceException e) {
@@ -34,7 +34,7 @@ public class SimpleServlet extends HttpServlet {
     }
 
     public void preDestroy() {
-        httpService.unregister("/org.jahia.modules.samples.servlet");
+        httpService.unregister("/org.jahia.modules.samples.servlet.blueprint");
     }
 
     public void setHttpService(HttpService httpService) {

@@ -4,7 +4,7 @@
 
     <reference id="httpService" interface="org.osgi.service.http.HttpService" />
 
-    <bean id="simpleServlet" class="org.jahia.modules.samples.servlet.SimpleServlet" init-method="postConstruct" destroy-method="preDestroy">
+    <bean id="simpleServlet" class="org.jahia.modules.samples.servlet.blueprint.SimpleServlet" init-method="postConstruct" destroy-method="preDestroy">
         <property name="httpService" ref="httpService" />
     </bean>
 

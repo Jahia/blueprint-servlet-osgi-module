@@ -7,8 +7,8 @@ Important note
 --------------
 
 Using OSGi Blueprint inside a Jahia module implies that you will not be able to use Spring technologies
-integrated such as Spring Webflow. If you need to use such features, you should use the spring-servlet-osgi-module
-example instead.
+integrated such as Spring Webflow. If you need to use such features, you should use the 
+[spring-servlet-osgi-module](https://github.com/Jahia/spring-servlet-osgi-module) example instead.
 
 Requirements
 ------------
@@ -23,19 +23,19 @@ Compiling
 Deploying
 ---------
 
-Copy the generated JAR from target/servlet-osgi-module-*.jar to Jahia Digital Factory's var/modules directory.
+Copy the generated JAR from target/blueprint-servlet-osgi-module-*.jar to Jahia Digital Factory's var/modules directory.
 
 Testing
 -------
 
 Access the following URL : 
 
-    http://localhost:8080/modules/org.jahia.modules.samples.servlet/test?test
+    http://localhost:8080/modules/org.jahia.modules.samples.servlet.blueprint/test?test
     
 You should get a result that looks like this : 
 
     Context path=/modules
-    Servlet path=/org.jahia.modules.samples.servlet
+    Servlet path=/org.jahia.modules.samples.servlet.blueprint
     Path info=/test
     Query string=test
     
