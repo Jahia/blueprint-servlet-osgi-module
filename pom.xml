@@ -51,16 +51,16 @@
         <groupId>org.jahia.modules</groupId>
         <version>7.0.0.1</version>
     </parent>
-    <artifactId>servlet-osgi-module</artifactId>
-    <name>Jahia Servlet module example</name>
+    <artifactId>blueprint-servlet-osgi-module</artifactId>
+    <name>Jahia Servlet module example using Blueprint</name>
     <version>1.0.0-SNAPSHOT</version>
     <packaging>bundle</packaging>
-    <description>An example of how to register a servlet inside an OSGi bundle</description>
+    <description>An example of how to register a servlet inside an OSGi bundle using OSGi Blueprint</description>
 
     <scm>
-        <connection>scm:git:git@github.com:Jahia/servlet-osgi-module.git</connection>
-        <url>scm:git:git@github.com:Jahia/servlet-osgi-module.git</url>
-        <developerConnection>scm:git:git@github.com:Jahia/servlet-osgi-module.git</developerConnection>
+        <connection>scm:git:git@github.com:Jahia/blueprint-servlet-osgi-module.git</connection>
+        <url>scm:git:git@github.com:Jahia/blueprint-servlet-osgi-module.git</url>
+        <developerConnection>scm:git:git@github.com:Jahia/blueprint-servlet-osgi-module.git</developerConnection>
     </scm>
 
     <repositories>

@@ -1,7 +1,14 @@
-servlet-osgi-module
-===================
+blueprint-servlet-osgi-module
+=============================
 
 A sample Jahia module that registers a servlet using OSGi Blueprint
+
+Important note
+--------------
+
+Using OSGi Blueprint inside a Jahia module implies that you will not be able to use Spring technologies
+integrated such as Spring Webflow. If you need to use such features, you should use the spring-servlet-osgi-module
+example instead.
 
 Requirements
 ------------
